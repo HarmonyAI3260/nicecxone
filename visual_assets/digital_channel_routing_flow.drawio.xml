@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2024-05-14T20:51:00.000Z" agent="Manus AI Agent" etag="11223" version="1.0" type="device">
+  <diagram id="diagram-3" name="Digital Channel Routing Flow (Web Chat)">
+    <mxGraphModel dx="1800" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="2200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Start: Incoming Web Chat Request -->
+        <mxCell id="dc_s1" value="Incoming Web Chat Request (from Website Widget)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="750" y="20" width="200" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- DFO/Studio Script Initiated -->
+        <mxCell id="dc_a1" value="DFO/Studio Script Initiated for Chat PoC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="730" y="140" width="240" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_s1" target="dc_a1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Collect Pre-Chat Information (Optional) -->
+        <mxCell id="dc_a2" value="Collect Pre-Chat Information (e.g., Name, Email, Issue Type via Pre-Chat Form/Bot)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="300" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a1" target="dc_a2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- CRM Data Dip (using Pre-Chat Info) -->
+        <mxCell id="dc_a3" value="RestApi: CRM Data Dip (Fetch Customer Context, e.g., Segment, Open Cases)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="710" y="400" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a2" target="dc_a3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Determine Required Skill & Priority -->
+        <mxCell id="dc_a4" value="Determine Required Skill(s) & Priority (based on Issue Type, CRM Data, Business Rules)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="340" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a3" target="dc_a4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Check Agent Availability & Capacity for Skill -->
+        <mxCell id="dc_a5" value="Check Agent Availability & Capacity for Skill(s) (Considering Chat Concurrency Limits, e.g., Most Idle, Round Robin)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="660" y="660" width="380" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a4" target="dc_a5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Available with Capacity? -->
+        <mxCell id="dc_d1" value="Agent Available with Capacity?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="730" y="800" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a5" target="dc_d1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- Agent Available Path -->
+        <mxCell id="dc_a6" value="REQAGENT (Digital): Route Chat to Available Agent (Screen Pop CRM Record)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="820" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_d1" target="dc_a6">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell as="alternateOutput" value="Yes" x="0.5" y="-15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="dc_e7"/>
+        </mxCell>
+
+        <!-- Agent Not Available Path: Queue Chat or Offer Alternatives -->
+        <mxCell id="dc_a7" value="Queue Chat for Skill (Display EWT to Customer) OR Offer Alternatives (e.g., Leave a Message, Email Support, Virtual Agent/Bot Escalation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="960" width="400" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_d1" target="dc_a7">
+          <mxGeometry relative="1" as="geometry"/>
+          <mxCell as="alternateOutput" value="No" x="-0.5" y="-15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="dc_e8"/>
+        </mxCell>
+
+        <!-- Agent Accepts Chat -->
+        <mxCell id="dc_end1" value="Agent Accepts Chat (via MAX Agent Desktop, with CRM Context)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1120" width="200" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a6" target="dc_end1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="1170"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dc_e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_a7" target="dc_end1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="1170"/>
+            </Array>
+          </mxGeometry>
+          <mxCell as="alternateOutput" value="If Queued & Agent Becomes Available" x="-0.5" y="15" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="dc_e10"/>
+        </mxCell>
+
+        <!-- Post-Chat: Activity Logging -->
+        <mxCell id="dc_a8" value="Chat Ends. Log Transcript & Disposition to CRM." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="710" y="1260" width="280" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="dc_e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="dc_end1" target="dc_a8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+
