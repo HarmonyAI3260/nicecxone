@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simplified NICE CXone Studio script generated from New IVR.drawio.png -->
+<!-- NOTE: This script is a best-effort reconstruction and may require further
+     adjustments within CXone Studio. The structure is based on a generic 
+     sample and may not exactly match DEV_ProAV_Ashu.XML. -->
+<StudioScript name="New_IVR" version="1.0">
+  <Start id="1" next="greeting" />
+
+  <Play id="greeting" message="Thank you for calling NETGEAR." next="privacy" />
+
+  <Play id="privacy" message="Your call may be monitored or recorded for quality or training purposes." next="main_menu" />
+
+  <!-- Main menu -->
+  <Menu id="main_menu" prompt="If you are calling for technical support press 1. If you need assistance choosing a Netgear product press 2. To repeat these options, press 0." repeat="0">
+    <Option key="1" next="product_menu" />
+    <Option key="2" next="product_menu" />
+    <Option key="0" next="main_menu" />
+  </Menu>
+
+  <!-- Product selection -->
+  <Menu id="product_menu" prompt="For Home Consumer products press 1. For Small and Medium ProSafe business products press 2. For ProAV press 3. To repeat these options, press 0." repeat="0">
+    <Option key="1" next="home_consumer" />
+    <Option key="2" next="prosafe" />
+    <Option key="3" next="proav" />
+    <Option key="0" next="product_menu" />
+  </Menu>
+
+  <Label id="home_consumer" description="Route to Home Consumer queue" />
+  <Label id="prosafe" description="Route to ProSafe queue" />
+  <Label id="proav" description="Route to ProAV queue" />
+
+  <End id="end" />
+</StudioScript>
