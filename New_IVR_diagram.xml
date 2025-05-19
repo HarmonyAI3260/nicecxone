@@ -1,0 +1,196 @@
+<mxfile host="ac.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.5" scale="1" border="0">
+  <diagram id="10vkfPu9yx8hOgnJskDw" name="Page-1">
+    <mxGraphModel dx="2196" dy="1969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-128" target="vIGYpY1qgqSfvQ0HRBo_-158" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-128" value="Customer call the support line" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="-810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-129" target="vIGYpY1qgqSfvQ0HRBo_-131" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-129" value="&lt;font&gt;If you are calling for technical support Press 1.&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;font&gt;&amp;nbsp;if you need assistance choosing a Netgear product&amp;nbsp;&lt;/font&gt;Press 2.&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;font&gt;To repeat these options, press 0.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="505.31" y="-310" width="529.37" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-131" target="vIGYpY1qgqSfvQ0HRBo_-133" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-131" target="vIGYpY1qgqSfvQ0HRBo_-161" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1324.375" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1395" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-131" value="Press 1 Or 2" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="-190" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-145" target="vIGYpY1qgqSfvQ0HRBo_-143" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-133" target="vIGYpY1qgqSfvQ0HRBo_-145" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-133" value="For Home Consumer products press 1&lt;div&gt;For Small and Medium ProSafe business products press 2&lt;div&gt;For ProAV press 3&lt;/div&gt;&lt;div&gt;To repeat these options, press 0.&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="94.5" y="-120" width="267" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-138" target="vIGYpY1qgqSfvQ0HRBo_-171" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-138" value="What type of product can we help you with?&amp;nbsp;&lt;div&gt;For Support on Switches press 1.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Wireless access points press 2.&amp;nbsp;&lt;/div&gt;&lt;div&gt;Insight press 3.&lt;/div&gt;&lt;div&gt;ProAV press 4.&lt;/div&gt;&lt;div&gt;Pro Routers press 5&lt;/div&gt;&lt;div&gt;ReadyNAS press 6.&amp;nbsp;&lt;/div&gt;&lt;div&gt;For other products press 7.&lt;/div&gt;&lt;div&gt;To repeat these options, press 0.&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="73" y="250" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-143" value="CHP Support IVR" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-145" target="JdUN8b-E0MAT_j6JDGGw-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-145" target="vIGYpY1qgqSfvQ0HRBo_-138" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-145" value="Press 1, 2 or 3" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="182" y="20" width="92" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MvorJ10DsPNMUBU5OjVd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-149" target="vIGYpY1qgqSfvQ0HRBo_-155" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-149" value="For all data privacy queries, including CCPA and GDPR please go to netgear.com forward slash privacy where you will find our privacy policy as well as a link to submit a request to access, download, or delete your personal data." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="642.5" y="-600" width="255" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MvorJ10DsPNMUBU5OjVd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-155" target="vIGYpY1qgqSfvQ0HRBo_-129" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-155" value="&lt;span data-teams=&quot;true&quot;&gt;Your call may be monitored or recorded for quality or training purposes.&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="661.24" y="-440" width="217.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-158" target="vIGYpY1qgqSfvQ0HRBo_-149" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-158" value="Thank you for choosing NETGEAR." style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="671.25" y="-690" width="197.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-161" target="vIGYpY1qgqSfvQ0HRBo_-164" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-161" value="For Home Consumer products press 1&lt;div&gt;For Small and Medium ProSafe business products press 2&lt;/div&gt;&lt;div&gt;For ProAV press 3&lt;/div&gt;&lt;div&gt;To repeat these options, press 0.&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="-120" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-164" target="vIGYpY1qgqSfvQ0HRBo_-163" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-163" value="Current Japenese CHP IVR" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-164" target="vIGYpY1qgqSfvQ0HRBo_-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-164" target="JdUN8b-E0MAT_j6JDGGw-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-164" value="Press 1 Or 2" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1355" y="20" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P6MzCt-pgV9nmvDLtZZO-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-166" target="P6MzCt-pgV9nmvDLtZZO-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-166" value="NFB L2 JAP Presales" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-168" target="vIGYpY1qgqSfvQ0HRBo_-175" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="660" />
+              <mxPoint x="209" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-168" value="NFB L2 JAP" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-169" target="vIGYpY1qgqSfvQ0HRBo_-175" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-169" value="NFB L2 JAP ProAV" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-171" target="vIGYpY1qgqSfvQ0HRBo_-169" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vIGYpY1qgqSfvQ0HRBo_-171" target="vIGYpY1qgqSfvQ0HRBo_-168" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-171" value="Press 4" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="188" y="430" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-175" value="Call assigned to an L2 Support Agent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="149" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-178" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="269" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-179" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="134" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-180" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="134" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-181" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="255.31" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-182" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1380" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-183" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1300" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-184" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="680" y="-180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vIGYpY1qgqSfvQ0HRBo_-185" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="800" y="-180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JdUN8b-E0MAT_j6JDGGw-2" target="JdUN8b-E0MAT_j6JDGGw-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-2" value="NFB L2 JAP ProAV" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-4" value="Call assigned to an L2 Support Agent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="530" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-8" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="220" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6MzCt-pgV9nmvDLtZZO-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JdUN8b-E0MAT_j6JDGGw-9" target="P6MzCt-pgV9nmvDLtZZO-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-9" value="NFB L2 JAP ProAV Presales" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JdUN8b-E0MAT_j6JDGGw-11" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1430" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P6MzCt-pgV9nmvDLtZZO-1" value="Call assigned to an L2 Support Agent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P6MzCt-pgV9nmvDLtZZO-3" value="Call assigned to an L2 Support Agent" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPOxsOSnXoeS2Ei3Aakd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="vPOxsOSnXoeS2Ei3Aakd-2" target="vIGYpY1qgqSfvQ0HRBo_-149" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vPOxsOSnXoeS2Ei3Aakd-2" value="IT to check what is required for Japan for this part" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="-572.5" width="140" height="55" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
